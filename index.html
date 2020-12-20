@@ -33,6 +33,129 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style type="text/css">
+      .timeline ul {
+  margin: 0;
+  margin-top: 100px;
+  list-style: none;
+  position: relative;
+  padding: 1px 100px;
+  color: red;
+  font-size: 13px;
+}
+/*.timeline ul:before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  border-left: 2px dashed #aaaa;
+}*/
+.timeline ul li {
+  position: relative;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 6px;
+  width: 250px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+}
+/*.timeline ul li:not(:first-child) {
+  margin-top: 60px;
+}*/
+.timeline ul li > span {
+  width: 2px;
+  height: 100%;
+  background: #aaaa;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+.timeline ul li > span:before, .timeline ul li > span:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: black;
+  left: -4px;
+  top: 0;
+}
+.timeline ul li span:after {
+  top: 100%;
+}
+.timeline ul li > div {
+  margin-left: 10px;
+
+}
+
+.timeline div .title1, .timeline div .type {
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+.timeline div .inf {
+  font-weight: 300;
+  color: black;
+ 
+}
+.timeline div > div {
+  margin-top: 5px;
+}
+.timeline span.number {
+  height: 100%;
+}
+.timeline span.number span {
+  position: absolute;
+  font-size: 14px;
+  left: -55px;
+  font-weight: bold;
+  color: black;
+}
+.timeline span.number span:first-child {
+  top: 0;
+}
+.timeline span.number span:last-child {
+  top: 100%;
+}
+strong{
+    font-weight: 650;
+}
+.he{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.qw_logos img{
+  height: 30px;
+  margin-bottom: 30px;
+}
+.qw_logos1 img{
+  height: 40px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .qw_logos1, .cosponsor{
+    display: none;
+  }
+}
+ @media only screen and (max-width: 600px) {
+.timeline ul {
+    margin: 0;
+    margin-top: 100px;
+    list-style: none;
+    position: relative;
+    padding: 1px 50px;
+    color: red;
+    font-size: 13px;
+}
+}
+
+    </style>
+
   </head>
 
 <body onload="timer()">
@@ -52,6 +175,7 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#agenda">Agenda</a></li>
           <li><a href="#sponsor">Sponsor</a></li>
           
         </ul>
@@ -223,6 +347,197 @@ initializeClock('clockdiv', deadline);
 
       </div>
     </section><!-- End More Services Section -->
+
+    <section id="agenda" class="about agenda">
+            <div class="container">
+                <div class="timeline">
+                    <div class="section-title">
+                        <h1>Agenda</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                  <h6 class="he">Inaugural </h6>
+
+                                <li>
+                                    <span></span>
+                                    <div>
+                                        <div class="title1"></div>
+                                        <div class="inf">
+                                        	<strong>Lamp and Prayer Song</strong><br><br>
+                                        	<strong>Ms. Sangeeta Singh</strong>, Deputy Advisor, IEEE Vardhaman College of Engineering <br><br>
+                                        	<strong>Dr. M. A. Jabbar</strong>, Student Branch Counselor, IEEE Vardhaman College of Engineering <br><br>
+                                        	<strong>Dr. J V R Ravindra</strong>, Principal Vardhaman College of Engineering  <br><br>
+                                        	<strong>Dr. Padma Sai</strong>, Chair IEEE Women in Engineering AG Hyderabad Section  <br><br>
+                                        	<strong>Dr. G. Sreelakshmi</strong>Chair IEEE Hyderabad Section SAC  <br><br>
+                                        	<strong>Dr. Amit Kumar</strong>, Chair IEEE Hyderabad Section  <br><br>
+                                        	<strong>Dr. Preeti Bajaj</strong>, Chair IEEE R10 Educational Activities 2021-2022  <br><br>
+                                        	<strong>Mr. Deepak Mathur</strong>, Director Elect IEEE R10   <br><br>
+                                        	<strong>Dr. Sudeendra Koushik</strong>, Vice President Conferences, IEEE TEMS  <br><br>
+                                        	<strong>Ms. Ramadevi</strong>, OSD ITE & Government of Telangana  <br><br>
+                                        	<strong>Dr. Suresh Nair</strong>, Chair Elect IEEE India Council  <br><br>
+                                        	<strong>Mr. Nookala Srinivas Rao</strong>, Treasurer, IEEE Hyderabad Section   <br><br>
+                                        	<strong>Mr. Bala Prasad Peddigari</strong>, Secretary IEEE Hyderabad Section <br><br>
+                                        	<strong>Inaugural of Ed Society</strong>  <br><br>
+                                        
+
+                                        </div>
+                                    </div> 
+                                    <span class="number"><span>06:00</span> <span>07:45</span></span>
+                                </li>
+                                <h6 class="he">Fire side Chat "Continuing IEEE Membership in Post COVID World"
+ </h6>
+
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Moderator</div>
+                                        <div class="inf"><strong>M. Sai Prashanth</strong>, Chair, IEEE Vardhaman College of Engineering</div>
+                                        <div class="title1">Panelists</div>
+                                        <div class="inf">
+                                        	<strong>Mr. Deepak Mathur</strong>, Director Elect IEEE R10  <br><br>
+                                        	<strong>Dr. Amit Kumar</strong>, Chair IEEE Hyderabad Section  <br><br>
+                                        	<strong>Dr. M. A. Jabbar</strong>, Student Branch Counselor, IEEE Vardhaman College of Engineering <br><br>
+                                        	<strong>Ms. Sangeeta Singh</strong>, Deputy Advisor, IEEE Vardhaman College of Engineering <br><br>
+                                        	<strong>Mr. Vamsi J Krishna</strong>, Chair IEEE Hyderabad Section YP AG  <br><br>
+                                        </div>
+                                    </div> 
+                                    <span class="number"><span>07:50</span> <span>08:50</span></span>
+                                </li>
+                                <h6 class="he">Industry Technical Talk  </h6>
+                                <li>
+                                    <span></span>
+                                    <div>
+										<div class="title1">FTCCI Panel</div>
+					
+                                    </div> 
+                                    <span class="number"><span>11:00</span> <span>12:00</span></span>
+                                </li>
+                                <h6 class="he">Business in the time of COVID-19: How Startups can respond to the impact</h6>
+
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Ms. Deepthi Ravula</div>
+                                        <div class="inf">CEO We-hub, Social Entrepreneur </div>
+                                    </div> 
+                                    <span class="number"><span>12:00</span> <span>12:30</span></span>
+                                </li>
+								<h6 class="he">Break</h6>
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Networking Session</div>
+                                        <div class="inf">Kahoot Game</div>
+                                    </div> 
+                                    <span class="number"><span>12:30</span> <span>01:15</span></span>
+                                </li>
+                                
+                                
+                            </ul>    
+                        </div>
+                        <div class="col-sm-6">
+                            <ul>
+                              
+                                <!-- <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Lunch</div>
+                                    </div> 
+                                    <span class="number"><span>12:45</span> <span>01:45</span></span>
+                                </li> -->
+                                <h6 class="he">Space Antenna Systems </h6>                                
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Mr. Puneet Mishra</div>
+                                        <div class="inf">Scientist ISRO, Secretary IEEE India Council</div>
+                                        <div class="title1">Speakers</div>
+                                    </div> 
+                                    <span class="number"><span>01:15</span> <span>02:00</span></span>
+                                </li>
+				<h6 class="he">Leadership and MembershipTraining</h6>
+				<li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1"> Dr. Nirmal Nair</div>
+					<div class="inf">CHAIR, IEEE REGION 10 PROFESSIONAL ACTIVITIES COMMITTEE</div>
+					
+                                    </div> 
+                                    <span class="number"><span>02:00</span> <span>02:30</span></span>
+                                </li>
+
+				<h6 class="he">Womens in Research and Academia: Towards Gender Equality in India</h6>
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Dr. Sanju Tiwari </div>
+                                        <div class="inf">PhD, Post-Doc), SMIEEE, Sr. Researcher Universidad Autonoma de Tamaulipas, Mexico</div>
+                                     
+                                    </div> 
+                                    <span class="number"><span>02:30</span> <span>03:00</span></span>
+                                </li>
+				<h6 class="he">Student to Young Professional Transition</h6>
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Mr. Parkash Lohana</div>
+                                        <div class="inf">Chair R10 Professional Activities Committee (2021-22) recently appointed, Chair R10 Membership Development Committee (2019-20)</div>
+                                        
+                                    </div> 
+                                    <span class="number"><span>04:00</span> <span>04:30</span></span>
+                                </li>
+
+
+
+                                <h6 class="he">IEEE Awards, Membership Development and New Initiatives for Professional Development</h6>
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Dr. Zia Ahmed</div>
+                                        <div class="inf">IEEE R10 Vice Chair(Membership Activities 2019-2020), IEEE R10 Vice Chair(Technical Activities 2021-2022) </div>
+                                        
+                                    </div> 
+                                    <span class="number"><span>04:30</span> <span>05:00</span></span>
+                                </li>
+
+                                <h6 class="he">How to get funding or Member Engagement and Benefits and Applying for spac</h6>
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Adil Usman</div>
+                                        <div class="inf">Chair, Professional Activities (SPAx), IEEE MGA SAC</div>
+                                        
+                                    </div> 
+                                    <span class="number"><span>05:00</span> <span>05:30</span></span>
+                                </li>
+                                <h6 class="he">Culturals</h6>
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">by students</div>
+                                        <div class="inf"></div>
+                                        
+                                    </div> 
+                                    <span class="number"><span>05:30</span> <span>06:00</span></span>
+                                </li>
+                                <!-- <h6 class="he">Closing Ceremony</h6> -->
+                                <li>
+                                    <div>
+                                        <span></span>
+                                        <div class="title1">Closing Ceremony and Awards Ceremony</div>
+                                                                               
+                                    </div> 
+                                    <span class="number"><span>06:00</span> <span>07:30</span></span>
+                                </li>
+
+				
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
   	<section id="sponsor" class="sponsor">
